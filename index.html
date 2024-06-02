@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Submit Resume</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="heading">Nivakush Solutions</h1>
+        <form class="resume_form">
+            <label for="username">Name <br><input id="username" type="text"></label><br>
+
+            <label for="useremail">Email <br> <input id="useremail" type="email"> </label><br>
+
+            <label for="age">Age in years<br> <input id="age" type="number"> </label><br>
+
+            <label for="passion">Which option describe you better ?<br>
+                <select id="passion" class="text-medium">
+
+                    <option value="Student">Student</option>
+                    <option value="Intern">Intern</option>
+                    <option value="Jobholder">Jobholder</option>
+
+                </select>
+
+            </label><br>
+
+            <label>Would you recommend Nivakush Solutions to your friend ?<br>
+            <div class="text-medium">
+                <input type="radio" id="yes" name="recommend" value="Yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="recommend" value="No">
+                <label for="no">No</label>
+                <input type="radio" id="maybe" name="recommend" value="Maybe">
+                <label for="maybe">Maybe</label>
+            </div>
+        </label><br>
+            <label>Languages and Frameworks known (Check all that apply)<br>
+<div class="text-medium">
+                <input type="checkbox" id="C" name="C" value="C">
+                <label for="C">C</label><br>
+                <input type="checkbox" id="Cpp" name="Cpp" value="Cpp">
+                <label for="Cpp">Cpp</label><br>
+                <input type="checkbox" id="Java" name="Java" value="Java">
+                <label for="Java">Java</label><br>
+                <input type="checkbox" id="Python" name="Python" value="Python">
+                <label for="Python">Python</label><br>
+                <input type="checkbox" id="CHash" name="CHash" value="CHash">
+                <label for="CHash">C#</label><br>
+                <input type="checkbox" id="JavaScript" name="JavaScript" value="JavaScript">
+                <label for="JavaScript">JavaScript</label><br>
+                <input type="checkbox" id="React" name="React" value="React">
+                <label for="React">React</label><br>
+                <input type="checkbox" id="Angular" name="Angular" value="Angular">
+                <label for="Angular">Angular</label><br>
+                <input type="checkbox" id="DJango" name="DJango" value="DJango">
+                <label for="DJango">DJango</label><br>
+                <input type="checkbox" id="Spring" name="Spring" value="Spring">
+                <label for="Spring">Spring</label>
+            </div>
+            </label><br>
+
+            <label for="comments">Any comments or suggetions<br>
+            <textarea name="comments" id="comments" cols="max-width" rows="8"></textarea>
+        </label>
+
+        <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

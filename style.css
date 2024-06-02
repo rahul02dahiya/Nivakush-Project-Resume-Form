@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;}
+
+.main{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color:#fff;
+}
+
+.resume_form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 90%;
+    background-color: #171930;
+    border: 2px solid red;
+    margin: 20px;
+    padding: 20px ;
+    font-size: 24px;
+
+}
+
+textarea
+{
+  border:1px solid #999999;
+  width:80%;
+  padding:8px;
+  margin-top: 8px;
+
+  resize: vertical;
+  min-height: 100px;
+  border-radius: 8px;
+  overflow: hidden;
+
+}
+
+.text-medium{
+    font-size: medium;
+}
+
+input,select{
+    margin-top: 8px;
+    padding: 6px;
+}
+
+input:not([type="radio"]):not([type="checkbox"]){
+    
+    width: 70%;
+}
+
+.btn{
+    margin: 8px 0px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color: #c5c5c5;
+}
+
+.heading{
+    margin-top: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .resume_form{
+        width: 80%;
+    }
+}
